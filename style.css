@@ -1,0 +1,173 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #161516;
+}
+
+header {
+    position: fixed;
+    background-color: #161516;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.studio {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start; 
+}
+
+.studio img {
+    width: 150px;
+    border-radius: 50%;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+
+header h1 {
+    color: #F5D5F0;
+    font-family: Apple Chancery, cursive;
+    font-size: 2.5rem;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 0.2rem;
+}
+
+header h2 {
+    color: #6667AB;
+    font-family: Apple Chancery, cursive;
+    font-size: 1rem;
+    padding-left: 2rem;
+
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+}
+
+.icon {
+    width: 70px;
+    border-radius: 50%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.name {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: start; 
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start; 
+    flex-direction: column;
+    margin-top: 270px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    gap: 30px;
+}
+
+.about {
+    background-color: #6667AB;
+    color: #161516; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    min-height: 23vh;
+    border-radius: 20px 20px;
+}
+
+.what {
+    background-color: #7B337E;
+    color: #161516; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    min-height: 50vh;
+    border-radius: 20px 20px;
+}
+
+.what_header {
+    color: #6667AB;
+    font-family: Apple Chancery, cursive;
+    font-size: 3rem;
+    text-align: right;
+}
+
+.service {
+    font-weight: bold;
+    color: #F5D5F0; 
+}
+
+.what p {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+p {
+    padding-bottom: 10px;
+    font-size: 1.3rem;
+    font-family: monospace;
+}
+
+.who {
+    background-color: #6667AB;
+    color: #161516; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    border-radius: 20px 20px;
+    flex-grow: 1; 
+}
+
+.contacts {
+    background-color: #7B337E;
+    color: #161516; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    border-radius: 20px 20px;
+    flex-grow: 1; 
+    margin-bottom: 3rem;
+}
+
+.contacts h2 {
+    color: #161516;
+    font-family: Apple Chancery, cursive;
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 900px) {
+    .who p {
+        font-size: 1.15rem;
+    }
+    section {
+        margin-top: 200px;
+    }
+    .icons {
+        padding: 1rem;
+    }
+}
+
+
+
+

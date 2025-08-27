@@ -91,7 +91,7 @@ section {
 }
 
 .what {
-    background-color: #7B337E;
+    background-color: #6667AB;
     color: #161516; 
     padding-left: 2rem;
     padding-right: 2rem;
@@ -138,7 +138,7 @@ p {
 }
 
 .contacts {
-    background-color: #7B337E;
+    background-color: #6667AB;
     color: #161516; 
     padding-left: 2rem;
     padding-right: 2rem;
@@ -148,6 +148,11 @@ p {
     border-radius: 20px 20px;
     flex-grow: 1; 
     margin-bottom: 3rem;
+    transition: background-color 1s ease-in-out;
+}
+
+.contacts:hover { 
+    background-color: #7B337E;
 }
 
 .contacts h2 {
@@ -169,5 +174,5 @@ p {
 }
 
 
-
+/* background-color: #7B337E; */
 

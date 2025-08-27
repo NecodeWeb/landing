@@ -88,6 +88,7 @@ section {
     width: 100%;
     min-height: 23vh;
     border-radius: 20px 20px;
+    transition: background-color 1s ease-in-out;
 }
 
 .what {
@@ -100,6 +101,7 @@ section {
     width: 100%;
     min-height: 50vh;
     border-radius: 20px 20px;
+    transition: background-color 1s ease-in-out;
 }
 
 .what_header {
@@ -135,6 +137,7 @@ p {
     width: 100%;
     border-radius: 20px 20px;
     flex-grow: 1; 
+    transition: background-color 1s ease-in-out;
 }
 
 .contacts {
@@ -151,7 +154,7 @@ p {
     transition: background-color 1s ease-in-out;
 }
 
-.contacts:hover { 
+.contacts:hover, .what:hover, .who:hover, .about:hover { 
     background-color: #7B337E;
 }
 

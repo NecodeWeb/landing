@@ -80,7 +80,7 @@ section {
 
 .about {
     background-color: #6667AB;
-    color: #161516; 
+    color: #F5D5F0; 
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 1rem;
@@ -93,7 +93,7 @@ section {
 
 .what {
     background-color: #6667AB;
-    color: #161516; 
+    color: #F5D5F0; 
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 1rem;
@@ -129,7 +129,7 @@ p {
 
 .who {
     background-color: #6667AB;
-    color: #161516; 
+    color: #F5D5F0; 
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 1rem;
@@ -142,7 +142,7 @@ p {
 
 .contacts {
     background-color: #6667AB;
-    color: #161516; 
+    color: #F5D5F0; 
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 1rem;
@@ -177,5 +177,4 @@ p {
 }
 
 
-/* background-color: #7B337E; */
 

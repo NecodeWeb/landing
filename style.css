@@ -40,7 +40,6 @@ header h1 {
 
 header h2 {
     color: #6667AB;
-    font-family: Apple Chancery, cursive;
     font-size: 1rem;
     padding-left: 2rem;
 
@@ -85,6 +84,10 @@ header h2 {
     flex-direction: column;
 }
 
+.second {
+    max-width: 88%;
+}
+
 .third {
     margin-bottom: 1rem;
 }
@@ -122,7 +125,6 @@ header h2 {
 
 .what_header {
     color: #6667AB;
-    font-family: Apple Chancery, cursive;
     font-size: 3rem;
     text-align: left;
 }
@@ -169,7 +171,6 @@ p {
     color: #6667AB;
     font-size: 3rem;
     padding-bottom: 2rem;
-    font-family: Apple Chancery, cursive;
     text-align: left;
 }
 
@@ -211,9 +212,7 @@ p {
     .icons {
         padding: 1rem;
     }
-    .second {
-        max-width: 90%;
-    }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -227,6 +226,7 @@ p {
     width: 100%;
     max-width: 100%;
   }
+
 }
 
 

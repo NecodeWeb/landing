@@ -78,8 +78,16 @@ section {
     gap: 30px;
 }
 
+.contacts, .what, .who, .about {
+    background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 35%, rgba(80, 71, 143, 1) 57%, rgba(102, 103, 171, 1) 100%);
+}
+
+.contacts:hover, .what:hover, .who:hover, .about:hover { 
+    background: #7B337E;
+}
+
 .about {
-    background-color: #6667AB;
     color: #F5D5F0; 
     padding-left: 2rem;
     padding-right: 2rem;
@@ -92,7 +100,6 @@ section {
 }
 
 .what {
-    background-color: #6667AB;
     color: #F5D5F0; 
     padding-left: 2rem;
     padding-right: 2rem;
@@ -113,7 +120,7 @@ section {
 
 .service {
     font-weight: bold;
-    color: #161516; 
+    color: #6667AB; 
 }
 
 .what p {
@@ -128,7 +135,6 @@ p {
 }
 
 .who {
-    background-color: #6667AB;
     color: #F5D5F0; 
     padding-left: 2rem;
     padding-right: 2rem;
@@ -141,7 +147,6 @@ p {
 }
 
 .contacts {
-    background-color: #6667AB;
     color: #F5D5F0; 
     padding-left: 2rem;
     padding-right: 2rem;
@@ -152,10 +157,6 @@ p {
     flex-grow: 1; 
     margin-bottom: 3rem;
     transition: background-color 1s ease-in-out;
-}
-
-.contacts:hover, .what:hover, .who:hover, .about:hover { 
-    background-color: #7B337E;
 }
 
 .contacts h2 {
